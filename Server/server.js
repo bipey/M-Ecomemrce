@@ -7,8 +7,8 @@ env.config();
 
 const PORT = process.env.PORT || 3007;
 
-app.post('/check', (req, res) => {
-    res.json("Hello world");
+app.get('/check', (req, res) => {
+    res.json("Hello world by bipash test");
 });
 
 // SERVER IS RUNNING
